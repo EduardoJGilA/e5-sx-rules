@@ -3,9 +3,9 @@
     "_meta": {
         "sources": [
             {
-                "json": "E5S",
-                "abbreviation": "E5S",
-                "full": "e5 Sex Rules",
+                "json": "5EGS",
+                "abbreviation": "5EGS",
+                "full": "THE 5E GUIDE TO SEX",
                 "authors": [
                     "¿?"
                 ],
@@ -24,7 +24,7 @@
     "item": [
         {
             "name": "Condom",
-            "source": "ES5",
+            "source": "5EGS",
             "foundryType": "consumable",
             "page": 13,
             "rarity": "none",
@@ -75,7 +75,7 @@
         },
         {
             "name": "Cassil",
-            "source": "ES5",
+            "source": "5EGS",
             "foundryType": "consumable",
             "page": 13,
             "rarity": "none",
@@ -125,7 +125,7 @@
         },
         {
             "name": "Nararoot",
-            "source": "ES5",
+            "source": "5EGS",
             "foundryType": "consumable",
             "page": 13,
             "rarity": "none",
@@ -174,7 +174,7 @@
         },
         {
             "name": "Clamp",
-            "source": "ES5",
+            "source": "5EGS",
             "foundryType": "loot",
             "page": 13,
             "rarity": "none",
@@ -197,8 +197,343 @@
             }
         },
         {
+            "name": "+1 Bikini armor",
+            "source": "5EGS",
+            "foundryType": "equipment",
+            "page": 15,
+            "rarity": "rare",
+            "quantity": 1,
+            "entries": [
+                "This armor reveals significant portions of its wearer’s body, including the thighs, arms, most or all of the chest, most of the buttocks, and most or all of the navel and back. Nevertheless, the armor not only functions normally, but indeed grants a bonus to AC. The bonus is determined by its rarity. Additionally, you have a bonus to seduction checks while wearing this armor. The bonus is likewise determined by the armor’s rarity"
+            ],
+            "fluff": {
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://i.imgur.com/uMdKAzX.jpg"
+                        }
+                    }
+                ]
+            },
+            "data": {
+                "baseItem": "Bikini armor"
+            },
+            "foundryData": {
+                "baseItem": "Bikini armor",
+                "armor": {
+                    "value": 11,
+                    "type": "light",
+                    "dex": 0
+                }
+            }
+        },
+        {
+            "name": "+3 Bikini armor",
+            "source": "5EGS",
+            "foundryType": "equipment",
+            "page": 15,
+            "rarity": "legendary",
+            "quantity": 1,
+            "entries": [
+                "This armor reveals significant portions of its wearer’s body, including the thighs, arms, most or all of the chest, most of the buttocks, and most or all of the navel and back. Nevertheless, the armor not only functions normally, but indeed grants a bonus to AC. The bonus is determined by its rarity. Additionally, you have a bonus to seduction checks while wearing this armor. The bonus is likewise determined by the armor’s rarity"
+            ],
+            "fluff": {
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://i.imgur.com/uMdKAzX.jpg"
+                        }
+                    }
+                ]
+            },
+            "data": {
+                "baseItem": "Bikini armor"
+            },
+            "foundryData": {
+                "baseItem": "Bikini armor",
+                "armor": {
+                    "value": 13,
+                    "type": "light",
+                    "dex": 0
+                }
+            }
+        },
+        {
+            "name": "+2 Bikini armor",
+            "source": "5EGS",
+            "foundryType": "equipment",
+            "page": 15,
+            "rarity": "very rare",
+            "quantity": 1,
+            "entries": [
+                "This armor reveals significant portions of its wearer’s body, including the thighs, arms, most or all of the chest, most of the buttocks, and most or all of the navel and back. Nevertheless, the armor not only functions normally, but indeed grants a bonus to AC. The bonus is determined by its rarity. Additionally, you have a bonus to seduction checks while wearing this armor. The bonus is likewise determined by the armor’s rarity"
+            ],
+            "fluff": {
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://i.imgur.com/tp5fNwj.jpg"
+                        }
+                    }
+                ]
+            },
+            "data": {
+                "baseItem": "Bikini armor"
+            },
+            "foundryData": {
+                "baseItem": "Bikini armor",
+                "armor": {
+                    "value": 12,
+                    "type": "light",
+                    "dex": 0
+                }
+            }
+        },
+        {
+            "name": "Bikini armor",
+            "source": "5EGS",
+            "foundryType": "equipment",
+            "page": 15,
+            "rarity": "uncommon",
+            "quantity": 1,
+            "entries": [
+                "This armor reveals significant portions of its wearer’s body, including the thighs, arms, most or all of the chest, most of the buttocks, and most or all of the navel and back. Nevertheless, the armor not only functions normally, but indeed grants a bonus to AC. The bonus is determined by its rarity. Additionally, you have a bonus to seduction checks while wearing this armor. The bonus is likewise determined by the armor’s rarity"
+            ],
+            "fluff": {
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://i.imgur.com/uMdKAzX.jpg"
+                        }
+                    }
+                ]
+            },
+            "data":
+            {
+                "identified": true,
+                "equipped": true
+            }
+        },
+        {
+            "name": "Amulet of fluidity",
+            "source": "5EGS",
+            "foundryType": "equipment",
+            "page": 15,
+            "rarity": "rare",
+            "quantity": 1,
+            "entries": [
+                "While wearing this amulet, you may change your sex as an action to male, female, both, or neither. Changing sex in this way has no impact on your sexual preferences. You can impregnate or become pregnant as normal for  your current sex. If you become pregnant, you can’t change your sex until either the fetus is terminated or you give birth"
+            ],
+            "fluff": {
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://i.imgur.com/l5Bj1Zl.jpg"
+                        }
+                    }
+                ]
+            },
+            "data":
+            {
+                "identified": true,
+                "equipped": true
+            }
+        },
+        {
+            "name": "Detachable penis",
+            "source": "5EGS",
+            "foundryType": "equipment",
+            "page": 16,
+            "rarity": "rare",
+            "quantity": 1,
+            "entries": [
+                "As an action, you can place this dildo against the clitoris of a woman and speak a command word to have it meld to the woman, becoming a flesh-and-blood, perpetually erect penis of appropriate size to the woman it has attached to. The woman can thereafter use the penis exactly as though she had one naturally, albeit with no chance of the woman impregnating another woman. The detachable penis does not cover the vagina and as such the woman can still be penetrated and impregnated as normal. The detachable penis can be detached by speaking the command word again; otherwise, it falls off after 1 hour has passed."
+            ],
+            "fluff": {
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://i.imgur.com/Q5Jt6Ll.png"
+                        }
+                    }
+                ]
+            },
+            "data":
+            {
+                "identified": true
+            }
+        },
+        {
+            "name": "Greater Detachable penis",
+            "source": "5EGS",
+            "foundryType": "equipment",
+            "page": 17,
+            "rarity": "very rare",
+            "quantity": 1,
+            "entries": [
+                "This item functions as a detachable penis, except that a woman can use it to impregnate her partner(s), provided they are otherwise compatible. The resulting fetus is a perfectly healthy, normal example of its kind. The greater detachable penis may or may not include a visible ball sack, as preferred by the creator of the magic item."
+            ],
+            "fluff": {
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://i.imgur.com/Q5Jt6Ll.png"
+                        }
+                    }
+                ]
+            },
+            "data":
+            {
+                "identified": true
+            }
+        },
+        {
+            "name": "Imperial clothes",
+            "source": "5EGS",
+            "foundryType": "equipment",
+            "page": 17,
+            "rarity": "rare",
+            "quantity": 1,
+            "entries": [
+                "These regal, opulent clothes are made of cloth-of-gold and studded with diamonds. While wearing them, your Charisma score increases by 2. Curse. These clothes are cursed. After 1d4 minutes, the clothes turn invisible to everyone except you – that is, as far as anyone other than you can tell, you are walking around naked. Furthermore, you must make a DC 15 Wisdom save. On a failure, you are convinced that your clothes are visible and refuse to believe anyone who tells you otherwise."
+            ],
+            "fluff": {
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://i.imgur.com/JPS2wDU.jpg"
+                        }
+                    }
+                ]
+            },
+            "data":
+            {
+                "identified": true
+            }
+        },
+        {
+            "name": "Saxophone of seduction",
+            "source": "5EGS",
+            "foundryType": "equipment",
+            "page": 18,
+            "rarity": "rare",
+            "quantity": 1,
+            "entries": [
+                "Any corpse or undead wearing this shirt is affected by a gentle repose spell for as long as it continues to wear the shirt. While primarily used to allow the deceased to be transported long distances without rotting, an undead creature wearing this shirt that has all its sexual organs intact can impregnate (if male) or become pregnant and carry a fetus to term (if female)."
+            ],
+            "fluff": {
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://i.imgur.com/JPS2wDU.jpg"
+                        }
+                    }
+                ]
+            },
+            "data":
+            {
+                "identified": true
+            }
+        },
+        {
+            "name": "Periapt of proof against pregnancy",
+            "source": "5EGS",
+            "foundryType": "equipment",
+            "page": 17,
+            "rarity": "rare",
+            "quantity": 1,
+            "entries": [
+                "This engraved gem appears to be a jewel of small value. While wearing it, it is impossible for you to impregnate (if male) or become pregnant (if female). "
+            ],
+            "fluff": {
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://i.imgur.com/EVGH2BA.jpg"
+                        }
+                    }
+                ]
+            },
+            "data":
+            {
+                "identified": true
+            }
+        },
+        {
+            "name": "Girdle of speedy gestation",
+            "source": "5EGS",
+            "foundryType": "equipment",
+            "page": 17,
+            "rarity": "very rare",
+            "quantity": 1,
+            "entries": [
+                "While wearing this girdle, your pregnancy last for only 1/10th the normal time. This has no ill effects on either you or the fetus you are carrying. If the girdle of speedy gestation is removed during your pregnancy, your pregnancy resumes its normal pace."
+            ],
+            "fluff": {
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://i.imgur.com/aaMnhxQ.jpg"
+                        }
+                    }
+                ]
+            },
+            "data":
+            {
+                "identified": true
+            }
+        },
+        {
+            "name": "Artificial Womb",
+            "source": "5EGS",
+            "foundryType": "equipment",
+            "page": 15,
+            "rarity": "legendary",
+            "quantity": 1,
+            "entries": [
+                "This thick glass bottle is two feet on a side and filled with a gelatinous liquid. Placing 1 ounce of blood into the liquid causes it to, for lack of a better term, become pregnant, producing a single fetus, which takes as long to gestate as is normal for its race. A single person can use just his or her own blood to, in essence, produce a clone, although the baby has none of the memories or personality of its lone parent. Alternatively, two or more people can contribute blood to the artificial womb to produce a child that is a mix of all the contributors. In this way, a child can have more than two biological parents, and can even be the product of races that would normally be incompatible The Dungeon Master determines the specific race and sex of the resulting fetus, but it is otherwise always a perfectly normal and healthy example of its kind. Once the fetus has finished gestating, liquid inside of the artificial womb disappears (thereby ensuring that the new baby doesn’t drown). It reappears after 1 week, at which point the artificial womb can be used again"
+            ],
+            "fluff": {
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://i.imgur.com/tp5fNwj.jpg"
+                        }
+                    }
+                ]
+            },
+            "data":
+            {
+                "identified": true
+            }
+        },
+        {
             "name": "Mask Leather",
-            "source": "ES5",
+            "source": "5EGS",
             "foundryType": "loot",
             "page": 13,
             "rarity": "none",
@@ -221,7 +556,7 @@
         },
         {
             "name": "Mask Metal",
-            "source": "ES5",
+            "source": "5EGS",
             "foundryType": "loot",
             "page": 13,
             "rarity": "none",
@@ -244,7 +579,7 @@
         },
         {
             "name": "Collar Leather",
-            "source": "ES5",
+            "source": "5EGS",
             "foundryType": "loot",
             "page": 13,
             "rarity": "none",
@@ -267,7 +602,7 @@
         },
         {
             "name": "Collar Metal",
-            "source": "ES5",
+            "source": "5EGS",
             "foundryType": "loot",
             "page": 13,
             "rarity": "none",
@@ -290,7 +625,7 @@
         },
         {
             "name": "Dildo, wooden",
-            "source": "ES5",
+            "source": "5EGS",
             "foundryType": "loot",
             "page": 13,
             "rarity": "none",
@@ -313,7 +648,7 @@
         },
         {
             "name": "Dildo, glass",
-            "source": "ES5",
+            "source": "5EGS",
             "foundryType": "loot",
             "page": 13,
             "rarity": "none",
@@ -336,7 +671,7 @@
         },
         {
             "name": "Dildo, metal",
-            "source": "ES5",
+            "source": "5EGS",
             "foundryType": "loot",
             "page": 13,
             "rarity": "none",
@@ -360,7 +695,7 @@
         },
         {
             "name": "Hood",
-            "source": "ES5",
+            "source": "5EGS",
             "foundryType": "loot",
             "page": 13,
             "rarity": "none",
@@ -383,7 +718,7 @@
         },
         {
             "name": "Paddle, wooden",
-            "source": "ES5",
+            "source": "5EGS",
             "foundryType": "loot",
             "page": 13,
             "rarity": "none",
@@ -407,7 +742,7 @@
         },
         {
             "name": "Paddle, leather",
-            "source": "ES5",
+            "source": "5EGS",
             "foundryType": "loot",
             "page": 13,
             "rarity": "none",
@@ -431,7 +766,7 @@
         },
         {
             "name": "Paddle, metal",
-            "source": "ES5",
+            "source": "5EGS",
             "foundryType": "loot",
             "page": 13,
             "rarity": "none",
@@ -455,7 +790,7 @@
         },
         {
             "name": "Riding crop, rattan",
-            "source": "ES5",
+            "source": "5EGS",
             "foundryType": "loot",
             "page": 13,
             "rarity": "none",
@@ -477,8 +812,57 @@
             }
         },
         {
+            "name": "Condom of certainty",
+            "source": "5EGS",
+            "foundryType": "consumable",
+            "page": 15,
+            "rarity": "rare",
+            "quantity": 1,
+            "entries": [
+                "While wearing this condom, any pregnancy check you would make fails automatically. The condom is reusable, though it is advised you wash it between uses. Curse. There is a 10% chance that a condom of certainty is cursed. A cursed condom of certainty instead has any pregnancy check you would make while wearing the condom succeed automatically, provided that you are otherwise compatible with your sexual partner(s).."
+            ],
+            "fluff": {
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://i.imgur.com/aWLdK44.jpg"
+                        }
+                    }
+                ]
+            },
+            "data": {
+                "activation": {
+                    "type": "trinket",
+                    "cost": 1
+                },
+                "uses": {
+                    "value": 1,
+                    "max": 1,
+                    "per": "charges"
+                }
+            },
+            "foundryData": {
+                "uses": {
+                    "max": 1,
+                    "per": "charges",
+                    "value": 1,
+                    "autoDestroy": true,
+                    "autoUse": true
+                },
+                "consumableType": "trinket",
+                "identified": true,
+                "activation": {
+                    "type": "bonus",
+                    "cost": 1,
+                    "condition": "You must be naked"
+                }
+            }
+        },
+        {
             "name": "Riding crop, leather",
-            "source": "ES5",
+            "source": "5EGS",
             "foundryType": "loot",
             "page": 13,
             "rarity": "none",
@@ -501,7 +885,7 @@
         },
         {
             "name": "Whip, flogger",
-            "source": "ES5",
+            "source": "5EGS",
             "foundryType": "loot",
             "page": 13,
             "rarity": "none",
@@ -525,7 +909,7 @@
         },
         {
             "name": "Whip, bull",
-            "source": "ES5",
+            "source": "5EGS",
             "foundryType": "loot",
             "page": 13,
             "rarity": "none",
@@ -549,7 +933,7 @@
         },
         {
             "name": "Ball gag",
-            "source": "ES5",
+            "source": "5EGS",
             "foundryType": "loot",
             "page": 13,
             "rarity": "none",
@@ -573,7 +957,7 @@
         },
         {
             "name": "Desensitizing Oil",
-            "source": "ES5",
+            "source": "5EGS",
             "foundryType": "consumable",
             "page": 13,
             "rarity": "none",
@@ -623,7 +1007,7 @@
         },
         {
             "name": "Aphrodisiac",
-            "source": "ES5",
+            "source": "5EGS",
             "foundryType": "consumable",
             "page": 13,
             "rarity": "none",
@@ -672,7 +1056,7 @@
         },
         {
             "name": "Chastity Belt",
-            "source": "ES5",
+            "source": "5EGS",
             "foundryType": "equipment",
             "page": 13,
             "rarity": "none",
@@ -717,7 +1101,7 @@
         },
         {
             "name": "Birthing Kit",
-            "source": "ES5",
+            "source": "5EGS",
             "foundryType": "tool",
             "page": 13,
             "weight": 1,
