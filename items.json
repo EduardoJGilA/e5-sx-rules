@@ -24,10 +24,13 @@
     "item": [
         {
             "name": "Condom",
-			"source": "ES5",
-			"rarity": "none",
-			"value": 10,
-			"weight": 0.1,
+            "source": "ES5",
+            "foundryType": "consumable",
+            "page": 13,
+            "rarity": "none",
+            "value": 10,
+            "weight": 0.1,
+            "quantity": 1,
             "entries": [
                 "Condoms have been around since ancient times; they were usually made from parts of an animal such as a goat or cow. They were not as effective as modern versions, however. If a condom is worn during sex, instead of rolling a d20 on the pregnancy check, roll {@dice 3d20} and take the lowest result."
             ],
@@ -41,6 +44,730 @@
                         }
                     }
                 ]
+            },
+            "data": {
+                "activation": {
+                    "type": "trinket",
+                    "cost": 1
+                },
+                "uses": {
+                    "value": 1,
+                    "max": 1,
+                    "per": "charges"
+                }
+            },
+            "foundryData": {
+                "uses": {
+                    "max": 1,
+                    "per": "charges",
+                    "value": 1,
+                    "autoDestroy": true,
+                    "autoUse": true
+                },
+                "consumableType": "trinket",
+                "identified": true,
+                "activation": {
+                    "type": "bonus",
+                    "cost": 1,
+                    "condition": "You must be naked"
+                }
+            }
+        },
+        {
+            "name": "Cassil",
+            "source": "ES5",
+            "foundryType": "consumable",
+            "page": 13,
+            "rarity": "none",
+            "value": 100,
+            "weight": 0.1,
+            "quantity": 1,
+            "entries": [
+                "Cassil is a small shrub similar to a mustard plant found in the Forgotten Realms; similar herbs may or may not exist in other campaign settings. Its seeds are ground into a fine, tasteless powder that suppresses male fertility. Men who want to avoid fathering children use this herb. A male humanoid who eats about a teaspoon of cassil is rendered infertile for a period of {@dice 3d4} days, although it requires about an hour before the herb takes effect. Stories abound of disloyal courtiers dosing their lords in order to prevent conception of an heir. Using either the Medicine or Nature skills, the effects can be detected with a DC 15 check and countered with a DC 20 check."
+            ],
+            "fluff": {
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://i.imgur.com/quFxFx5.png"
+                        }
+                    }
+                ]
+            },
+            "data": {
+                "activation": {
+                    "type": "food",
+                    "cost": 1
+                },
+                "uses": {
+                    "value": 1,
+                    "max": 1,
+                    "per": "charges"
+                }
+            },
+            "foundryData": {
+                "uses": {
+                    "max": 1,
+                    "per": "charges",
+                    "value": 1,
+                    "autoDestroy": true,
+                    "autoUse": true
+                },
+                "consumableType": "food",
+                "identified": true,
+                "activation": {
+                    "type": "bonus",
+                    "cost": 1
+                }
+            }
+        },
+        {
+            "name": "Nararoot",
+            "source": "ES5",
+            "foundryType": "consumable",
+            "page": 13,
+            "rarity": "none",
+            "value": 20,
+            "quantity": 1,
+            "entries": [
+                "Nararoot is a black, woody tuber with a licorice-like flavor, found in the Forgotten Realms. Shavings steeped in hot water make a strong tea that renders a woman infertile for d4+2 days. Chewed raw, the root tastes unpleasant, but the effects are more potent, lasting 2d4+4 days. Women who do not wish to become pregnant use nararoot. Using either the Medicine or Nature skills, the effects can be detected"
+            ],
+            "fluff": {
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://i.imgur.com/xGlow6b.jpg"
+                        }
+                    }
+                ]
+            },
+            "data": {
+                "activation": {
+                    "type": "food",
+                    "cost": 1
+                },
+                "uses": {
+                    "value": 1,
+                    "max": 1,
+                    "per": "charges"
+                }
+            },
+            "foundryData": {
+                "uses": {
+                    "max": 1,
+                    "per": "charges",
+                    "value": 1,
+                    "autoDestroy": true,
+                    "autoUse": true
+                },
+                "consumableType": "food",
+                "identified": true,
+                "activation": {
+                    "type": "bonus",
+                    "cost": 1
+                }
+            }
+        },
+        {
+            "name": "Clamp",
+            "source": "ES5",
+            "foundryType": "loot",
+            "page": 13,
+            "rarity": "none",
+            "value": 100,
+            "weight": 0.3,
+            "quantity": 1,
+            "entries": [
+                "While wearing a clamp, you have disadvantage on concentration checks."
+            ],
+            "fluff": {
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://i.imgur.com/tp5fNwj.jpg"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Mask Leather",
+            "source": "ES5",
+            "foundryType": "loot",
+            "page": 13,
+            "rarity": "none",
+            "value": 5000,
+            "weight": 0.3,
+            "quantity": 1,
+            "entries": [
+            ],
+            "fluff": {
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://i.imgur.com/SZ24zIR.jpg"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Mask Metal",
+            "source": "ES5",
+            "foundryType": "loot",
+            "page": 13,
+            "rarity": "none",
+            "value": 20000,
+            "weight": 0.3,
+            "quantity": 1,
+            "entries": [
+            ],
+            "fluff": {
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://i.imgur.com/2ccAMXp.jpg"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Collar Leather",
+            "source": "ES5",
+            "foundryType": "loot",
+            "page": 13,
+            "rarity": "none",
+            "value": 100,
+            "weight": 0.3,
+            "quantity": 1,
+            "entries": [
+            ],
+            "fluff": {
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://i.imgur.com/SZ24zIR.jpg"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Collar Metal",
+            "source": "ES5",
+            "foundryType": "loot",
+            "page": 13,
+            "rarity": "none",
+            "value": 100,
+            "weight": 0.3,
+            "quantity": 1,
+            "entries": [
+            ],
+            "fluff": {
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://i.imgur.com/2ccAMXp.jpg"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Dildo, wooden",
+            "source": "ES5",
+            "foundryType": "loot",
+            "page": 13,
+            "rarity": "none",
+            "value": 100,
+            "weight": 1,
+            "quantity": 1,
+            "entries": [
+            ],
+            "fluff": {
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://i.imgur.com/YuIgJgv.jpg"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Dildo, glass",
+            "source": "ES5",
+            "foundryType": "loot",
+            "page": 13,
+            "rarity": "none",
+            "value": 1000,
+            "weight": 2,
+            "quantity": 1,
+            "entries": [
+            ],
+            "fluff": {
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://i.imgur.com/IuoYOg5.jpg"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Dildo, metal",
+            "source": "ES5",
+            "foundryType": "loot",
+            "page": 13,
+            "rarity": "none",
+            "value": 2000,
+            "weight": 3,
+            "quantity": 1,
+            "entries": [
+                "You are blinded for as long as you are wearing a hood."
+            ],
+            "fluff": {
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://xalatex.com/images/product_images/original_images/95101%20Edelstahl%20Dildo%20Neuling_1.jpg"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Hood",
+            "source": "ES5",
+            "foundryType": "loot",
+            "page": 13,
+            "rarity": "none",
+            "value": 500,
+            "weight": 0.3,
+            "quantity": 1,
+            "entries": [
+            ],
+            "fluff": {
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://xalatex.com/images/product_images/original_images/95101%20Edelstahl%20Dildo%20Neuling_1.jpg"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Paddle, wooden",
+            "source": "ES5",
+            "foundryType": "loot",
+            "page": 13,
+            "rarity": "none",
+            "value": 40,
+            "weight": 2,
+            "quantity": 1,
+            "entries": [
+                "A paddle can be used as an improvised weapon with the same statistics as a club."
+            ],
+            "fluff": {
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://i.imgur.com/y71K5mF.jpg"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Paddle, leather",
+            "source": "ES5",
+            "foundryType": "loot",
+            "page": 13,
+            "rarity": "none",
+            "value": 60,
+            "weight": 4,
+            "quantity": 1,
+            "entries": [
+                "A paddle can be used as an improvised weapon with the same statistics as a club."
+            ],
+            "fluff": {
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://i.imgur.com/wUoBGkE.jpg"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Paddle, metal",
+            "source": "ES5",
+            "foundryType": "loot",
+            "page": 13,
+            "rarity": "none",
+            "value": 100,
+            "weight": 4,
+            "quantity": 1,
+            "entries": [
+                "A paddle can be used as an improvised weapon with the same statistics as a club."
+            ],
+            "fluff": {
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://i.imgur.com/CFtvnSz.jpg"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Riding crop, rattan",
+            "source": "ES5",
+            "foundryType": "loot",
+            "page": 13,
+            "rarity": "none",
+            "value": 10,
+            "quantity": 1,
+            "entries": [
+                "A riding crop can be used as an improvised weapon with the same statistics as a club, except that it deals only {@dice 1d4} bludgeoning damage."
+            ],
+            "fluff": {
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://i.imgur.com/aWLdK44.jpg"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Riding crop, leather",
+            "source": "ES5",
+            "foundryType": "loot",
+            "page": 13,
+            "rarity": "none",
+            "value": 70,
+            "quantity": 1,
+            "entries": [
+                "A riding crop can be used as an improvised weapon with the same statistics as a club, except that it deals only {@dice 1d4} bludgeoning damage."
+            ],
+            "fluff": {
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://i.imgur.com/338vCqO.jpg"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Whip, flogger",
+            "source": "ES5",
+            "foundryType": "loot",
+            "page": 13,
+            "rarity": "none",
+            "value": 50,
+            "weight": 1,
+            "quantity": 1,
+            "entries": [
+                "A flogger or bullwhip can be used as an improvised weapon with the same statistics as a whip, except that a bullwhip lacks the reach property"
+            ],
+            "fluff": {
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://i.imgur.com/CFtvnSz.jpg"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Whip, bull",
+            "source": "ES5",
+            "foundryType": "loot",
+            "page": 13,
+            "rarity": "none",
+            "value": 100,
+            "weight": 2,
+            "quantity": 1,
+            "entries": [
+                "A flogger or bullwhip can be used as an improvised weapon with the same statistics as a whip, except that a bullwhip lacks the reach property"
+            ],
+            "fluff": {
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://i.imgur.com/CFtvnSz.jpg"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Ball gag",
+            "source": "ES5",
+            "foundryType": "loot",
+            "page": 13,
+            "rarity": "none",
+            "value": 100,
+            "weight": 0.5,
+            "quantity": 1,
+            "entries": [
+                "While wearing a ball gag, you can’t speak and thus can’t cast spells with verbal components."
+            ],
+            "fluff": {
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://i.imgur.com/bSmQNvU.jpg"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Desensitizing Oil",
+            "source": "ES5",
+            "foundryType": "consumable",
+            "page": 13,
+            "rarity": "none",
+            "value": 1000,
+            "weight": 0.1,
+            "quantity": 1,
+            "entries": [
+                "This oil can be rubbed over a male or female genitalia. Each vial contains enough oil for 3 doses. It reduces sensitivity and sexual stimulation for one hour. During this time, you can have sex for a number of minutes equal to your Constitution score, rather than your Constitution score minus 5. If you have the Enduring racial trait, you can instead have sex for a number of minutes equal to his or her Constitution score +5. While under the effects of desensitizing oil, you can’t have a quick fuck. Additionally, the DC to satisfy someone who is under the effects of desensitizing oil is increased by 5."
+            ],
+            "fluff": {
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://i.imgur.com/Hpj9Asx.jpg"
+                        }
+                    }
+                ]
+            },
+            "data": {
+                "activation": {
+                    "type": "potion",
+                    "cost": 1
+                },
+                "uses": {
+                    "value": 1,
+                    "max": 1,
+                    "per": "charges"
+                }
+            },
+            "foundryData": {
+                "uses": {
+                    "max": 1,
+                    "per": "charges",
+                    "value": 1,
+                    "autoDestroy": true,
+                    "autoUse": true
+                },
+                "consumableType": "potion",
+                "identified": true,
+                "activation": {
+                    "type": "bonus",
+                    "cost": 10
+                }
+            }
+        },
+        {
+            "name": "Aphrodisiac",
+            "source": "ES5",
+            "foundryType": "consumable",
+            "page": 13,
+            "rarity": "none",
+            "value": 5000,
+            "entries": [
+                "There are a great many different kinds of supposed aphrodisiacs available in the world, but most of them have little if any real effect. The aphrodisiac listed here is one that actually works; it takes the form of a vial of liquid. For one after hour consuming it, the imbiber is automatically satisfied at the end of an act of sex, with no satisfaction check required. A satisfaction check can still be attempted to see if the imbiber is left very satisfied, but a result of “very dissatisfied” is impossible. If the imbiber is raped, however, the rapist is still considered to have failed his or her satisfaction check"
+            ],
+            "fluff": {
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://i.imgur.com/Oibyzof.jpg"
+                        }
+                    }
+                ]
+            },
+            "data": {
+                "activation": {
+                    "type": "potion",
+                    "cost": 1
+                },
+                "uses": {
+                    "value": 1,
+                    "max": 1,
+                    "per": "charges"
+                }
+            },
+            "foundryData": {
+                "uses": {
+                    "max": 1,
+                    "per": "charges",
+                    "value": 1,
+                    "autoDestroy": true,
+                    "autoUse": true
+                },
+                "consumableType": "potion",
+                "identified": true,
+                "activation": {
+                    "type": "bonus",
+                    "cost": 1,
+                    "condition": ""
+                }
+            }
+        },
+        {
+            "name": "Chastity Belt",
+            "source": "ES5",
+            "foundryType": "equipment",
+            "page": 13,
+            "rarity": "none",
+            "value": 2000,
+            "weight": 6,
+            "entries": [
+                "A leather belt with a metal codpiece that fits over the wearer’s gentiles and includes a lock in the front. It comes in either male or female variety. Opening the lock requires a DC 15 Dexterity check, while breaking it requires a DC 15 Strength check. Otherwise, as long as the chastity belt is worn, it is impossible for the wearer to be satisfied during sex"
+            ],
+            "fluff": {
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://i.imgur.com/9VKRHF0.jpg"
+                        }
+                    }
+                ]
+            },
+            "data": {
+                "activation": {
+                    "type": "clothing",
+                    "cost": 1
+                },
+                "armor": {
+                    "value": null,
+                    "type": "clothing",
+                    "dex": null
+                },
+                "weight": 6
+            },
+            "foundryData": {
+                "armor": {
+                    "value": null,
+                    "type": "clothing",
+                    "dex": null
+                },
+                "consumableType": "clothing",
+                "identified": true,
+                "totalWeight": 6
+            }
+        },
+        {
+            "name": "Birthing Kit",
+            "source": "ES5",
+            "foundryType": "tool",
+            "page": 13,
+            "weight": 1,
+            "rarity": "none",
+            "value": 500,
+            "entries": [
+                "This specialized kit is similar to a healer’s kit, but it contains items designed for midwives to help a mother give birth. It grants advantage on Wisdom (Medicine) checks specifically related to childbirth. It is exhausted after 10 uses"
+            ],
+            "fluff": {
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://i.imgur.com/LkNyCw1.jpg"
+                        }
+                    }
+                ]
+            },
+            "data": {
+                "toolType": null,
+                "baseItem": null,
+                "ability": "wis",
+                "prof": {
+                    "_baseProficiency": 3,
+                    "multiplier": 1,
+                    "rounding": "down"
+                },
+                "owner": true,
+                "notFeat": true,
+                "quantity": 1,
+                "weight": 1,
+                "price": {
+                    "gp": 5
+                }
+            },
+            "foundryData": {
+                "toolType": null,
+                "baseItem": null,
+                "ability": "wis",
+                "prof": {
+                    "_baseProficiency": 3,
+                    "multiplier": 1,
+                    "rounding": "down"
+                },
+                "owner": true,
+                "notFeat": true,
+                "quantity": 1,
+                "weight": 2,
+                "price": 50
             }
         }
     ]
