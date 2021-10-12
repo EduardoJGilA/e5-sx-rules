@@ -1,0 +1,49 @@
+
+{
+	"$schema": "./schema.json",
+	"_meta": {
+		"sources": [
+			{
+				"json": "E5S",
+				"abbreviation": "E5S",
+				"full": "e5 Sex Rules",
+				"authors": [
+					"¿?"
+				],
+				"convertedBy": [
+					"MiGaki"
+				],
+				"url": "https://img.fireden.net/tg/image/1535/15/1535150586631.pdf",
+				"version": "1.0",
+				"color": "68463f"
+			}
+		],
+		"dateAdded": 1579289769,
+		"dateLastModified": 1598983196,
+		"unlisted": true
+	},
+	"item": [
+		{
+			"name": "Condom",
+			"source": "E5S",
+			"page": 13,
+			"wondrous": true,
+			"rarity": "common",
+			"reqAttune": true,
+			"entries": [
+				"Condoms have been around since ancient times; they were usually made from parts of an animal such as a goat or cow. They were not as effective as modern versions, however. If a condom is worn during sex, instead of rolling a d20 on the pregnancy check, roll {@dice 3d20} and take the lowest result."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/I2YyN30.jpg"
+						}
+					}
+				]
+			}
+		 }
+	]
+}
