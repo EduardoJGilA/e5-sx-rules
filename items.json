@@ -24,12 +24,10 @@
     "item": [
         {
             "name": "Condom",
-            "source": "E5S",
-            "page": 13,
-            "wondrous": true,
-            "rarity": "common",
-            "reqAttune": true,
-            "value": 10 ,
+			"source": "ES5",
+			"rarity": "none",
+			"value": 10,
+			"weight": 0.1,
             "entries": [
                 "Condoms have been around since ancient times; they were usually made from parts of an animal such as a goat or cow. They were not as effective as modern versions, however. If a condom is worn during sex, instead of rolling a d20 on the pregnancy check, roll {@dice 3d20} and take the lowest result."
             ],
