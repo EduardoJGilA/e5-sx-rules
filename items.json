@@ -29,29 +29,7 @@
             "wondrous": true,
             "rarity": "common",
             "reqAttune": true,
-            "entries": [
-                "Condoms have been around since ancient times; they were usually made from parts of an animal such as a goat or cow. They were not as effective as modern versions, however. If a condom is worn during sex, instead of rolling a d20 on the pregnancy check, roll {@dice 3d20} and take the lowest result."
-            ],
-            "fluff": {
-                "images": [
-                    {
-                        "type": "image",
-                        "href": {
-                            "type": "external",
-                            "url": "https://i.imgur.com/I2YyN30.jpg"
-                        }
-                    }
-                ]
-            }
-        },
-         {
-            "name": "Condom",
-            "source": "E5S",
-            "page": 13,
-            "wondrous": true,
-            "rarity": "common",
-            "reqAttune": true,
-            "cost": "1 sp",
+            "cost": "1 sp" ,
             "entries": [
                 "Condoms have been around since ancient times; they were usually made from parts of an animal such as a goat or cow. They were not as effective as modern versions, however. If a condom is worn during sex, instead of rolling a d20 on the pregnancy check, roll {@dice 3d20} and take the lowest result."
             ],
