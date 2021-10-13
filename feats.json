@@ -1,0 +1,686 @@
+{
+    "$schema": "./schema.json",
+    "_meta": {
+        "sources": [
+            {
+                "json": "5EGS",
+                "abbreviation": "5EGS",
+                "full": "THE 5E GUIDE TO SEX",
+                "authors": [
+                    "¿?"
+                ],
+                "convertedBy": [
+                    "MiGaki"
+                ],
+                "url": "https://img.fireden.net/tg/image/1535/15/1535150586631.pdf",
+                "version": "1.0",
+                "color": "68463f"
+            }
+        ],
+        "dateAdded": 1579289769,
+        "dateLastModified": 1598983196,
+        "unlisted": true
+    },
+    "optionalfeature": [
+        {
+            "name": "Tread the jeweled thrones",
+            "source": "5EGS",
+            "foundryType": "feat",
+            "page": 9,
+            "quantity": 1,
+            "featureType": [
+                "SEX"
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 1,
+                        "class": {
+                            "name": "Barbarian",
+                            "visible": {
+                                "type": true
+                            }
+                        }
+                    },
+                    "item": [
+                        "Barbarian"
+                    ]
+                }
+            ],
+            "entries": [
+                "You may choose to gain an additional use of Rage at the end of an act of sex, provided you satisfied at least one partner. If you do, your satisfied partner(s) also gain one use of rage, which they retain until they finish a long rest. Once you use this ability, you can’t use it again until you finish a long rest. "
+            ],
+            "img": "modules/plutonium/media/icon/skills.svg"
+        },
+        {
+            "name": "Love song",
+            "source": "5EGS",
+            "foundryType": "feat",
+            "page": 9,
+            "quantity": 1,
+            "featureType": [
+                "SEX"
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 1,
+                        "class": {
+                            "name": "Bard",
+                            "visible": {
+                                "type": true
+                            }
+                        }
+                    },
+                    "item": [
+                        "Bard"
+                    ]
+                }
+            ],
+            "entries": [
+                "As an action, you can gain advantage on seduction checks. Once you use this ability a number of times equal to your Charisma modifier, you must finish a long rest before using it again."
+            ],
+            "img": "modules/plutonium/media/icon/skills.svg"
+        },
+        {
+            "name": "Rock the bed",
+            "source": "5EGS",
+            "foundryType": "feat",
+            "page": 9,
+            "quantity": 1,
+            "featureType": [
+                "SEX"
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 1,
+                        "class": {
+                            "name": "Bard",
+                            "visible": {
+                                "type": true
+                            }
+                        }
+                    },
+                    "item": [
+                        "Bard"
+                    ]
+                }
+            ],
+            "entries": [
+                "You may choose to gain an inspiration die at the end of an act of sex, provided you satisfied at least one partner (this is an exception to the normal rule that bards can’t grant themselves inspiration dice). If you do, your satisfied partner(s) also gain an inspiration die. Once you use this ability, you can’t use it again until you finish a long rest"
+            ],
+            "img": "modules/plutonium/media/icon/skills.svg"
+        },
+        {
+            "name": "Ordained birth control",
+            "source": "5EGS",
+            "foundryType": "feat",
+            "page": 9,
+            "quantity": 1,
+            "featureType": [
+                "SEX"
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 1,
+                        "class": {
+                            "name": "Cleric",
+                            "visible": {
+                                "type": true
+                            }
+                        }
+                    },
+                    "item": [
+                        "Cleric"
+                    ]
+                }
+            ],
+            "entries": [
+                "When you have sex, you may choose to impose advantage or disadvantage on a pregnancy roll you make. Once you use this ability a number of times equal to your Wisdom modifier, you must finish a long rest before using it again."
+            ],
+            "img": "modules/plutonium/media/icon/skills.svg"
+        },
+        {
+            "name": "Sacred act",
+            "source": "5EGS",
+            "foundryType": "feat",
+            "page": 9,
+            "quantity": 1,
+            "featureType": [
+                "SEX"
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 1,
+                        "class": {
+                            "name": "Cleric",
+                            "visible": {
+                                "type": true
+                            }
+                        }
+                    },
+                    "item": [
+                        "Cleric"
+                    ]
+                }
+            ],
+            "entries": [
+                "You may choose to gain advantage on Wisdom saving throws at the end of an act of sex, provided you satisfied at least one partner. This lasts until the end of your next long rest. If you do, your satisfied partner(s) gain the same benefit. Once you use this ability, you can’t use it again until you finish a long rest. "
+            ],
+            "img": "modules/plutonium/media/icon/skills.svg"
+        },
+        {
+            "name": "Body control",
+            "source": "5EGS",
+            "foundryType": "feat",
+            "page": 9,
+            "quantity": 1,
+            "featureType": [
+                "SEX"
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 1,
+                        "class": {
+                            "name": "Druid",
+                            "visible": {
+                                "type": true
+                            }
+                        }
+                    },
+                    "item": [
+                        "Druid"
+                    ]
+                }
+            ],
+            "entries": [
+                "When you impregnate or become pregnant, you can choose the sex and race of the fetus or fetuses, subject to DM approval."
+            ],
+            "img": "modules/plutonium/media/icon/skills.svg"
+        },
+        {
+            "name": "Wild style",
+            "source": "5EGS",
+            "foundryType": "feat",
+            "page": 9,
+            "quantity": 1,
+            "featureType": [
+                "SEX"
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 1,
+                        "class": {
+                            "name": "Druid",
+                            "visible": {
+                                "type": true
+                            }
+                        }
+                    },
+                    "item": [
+                        "Druid"
+                    ]
+                }
+            ],
+            "entries": [
+                "You may choose to gain one extra use of Wild Shape at the end of each act of sex, provided you satisfied at least one partner. If you do, your satisfied partner(s) also gain one use of Wild Shape, at your level and Circle, which lasts until they finish a long rest. Once you use this ability, you can’t use it again until you finish a long rest."
+            ],
+            "img": "modules/plutonium/media/icon/skills.svg"
+        },
+        {
+            "name": "Prowess",
+            "source": "5EGS",
+            "foundryType": "feat",
+            "page": 9,
+            "quantity": 1,
+            "featureType": [
+                "SEX"
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 1,
+                        "class": {
+                            "name": "Fighter",
+                            "visible": {
+                                "type": true
+                            }
+                        }
+                    },
+                    "item": [
+                        "Fighter"
+                    ]
+                }
+            ],
+            "entries": [
+                "When you have sex, you can use your Strength, Dexterity, or Constitution score to determine how long you can last, rather than your Constitution score. Once you use this ability a number of times equal to your Strength modifier, you must finish a long rest before using it again."
+            ],
+            "img": "modules/plutonium/media/icon/skills.svg"
+        },
+        {
+            "name": "Gets the blood flowing",
+            "source": "5EGS",
+            "foundryType": "feat",
+            "page": 9,
+            "quantity": 1,
+            "featureType": [
+                "SEX"
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 1,
+                        "class": {
+                            "name": "Fighter",
+                            "visible": {
+                                "type": true
+                            }
+                        }
+                    },
+                    "item": [
+                        "Fighter"
+                    ]
+                }
+            ],
+            "entries": [
+                "You may choose to gain an additional use of Action Surge at the end of an act of sex, provided you satisfied at least one partner. If you do, your satisfied partner(s) gain the same benefit until they finish a long rest. Once you use this ability, you can’t use it again until you finish a long rest."
+            ],
+            "img": "modules/plutonium/media/icon/skills.svg"
+        },
+        {
+            "name": "Deus Vult",
+            "source": "5EGS",
+            "foundryType": "feat",
+            "page": 10,
+            "quantity": 1,
+            "featureType": [
+                "SEX"
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 1,
+                        "class": {
+                            "name": "Paladin",
+                            "visible": {
+                                "type": true
+                            }
+                        }
+                    },
+                    "item": [
+                        "Paladin"
+                    ]
+                }
+            ],
+            "entries": [
+                "When making a satisfaction check, you can expend points from your Lay on Hands pool and add them to your satisfaction check result. Once you use this ability a number of times equal to your Charisma modifier, you must finish a long rest before using it again."
+            ],
+            "img": "modules/plutonium/media/icon/skills.svg"
+        },
+        {
+            "name": "Sexual healing",
+            "source": "5EGS",
+            "foundryType": "feat",
+            "page": 10,
+            "quantity": 1,
+            "featureType": [
+                "SEX"
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 1,
+                        "class": {
+                            "name": "Paladin",
+                            "visible": {
+                                "type": true
+                            }
+                        }
+                    },
+                    "item": [
+                        "Paladin"
+                    ]
+                }
+            ],
+            "entries": [
+                "your Lay on Hands feature to all partners you satisfy at the end of an act of sex (in other words, for example, you can expend 5 points from your pool to heal everyone you have satisfied by 5 hit points, no matter how many people were involved). Once you use this ability, you can’t use it again until you finish a long rest."
+            ],
+            "img": "modules/plutonium/media/icon/skills.svg"
+        },
+        {
+            "name": "That’s my fetish",
+            "source": "5EGS",
+            "foundryType": "feat",
+            "page": 10,
+            "quantity": 1,
+            "featureType": [
+                "SEX"
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 1,
+                        "class": {
+                            "name": "Ranger",
+                            "visible": {
+                                "type": true
+                            }
+                        }
+                    },
+                    "item": [
+                        "Ranger"
+                    ]
+                }
+            ],
+            "entries": [
+                "At will, you may grant yourself and anyone you have sex with advantage on Wisdom saving throws during foreplay. Once you use this ability a number of times equal to your Wisdom modifier, you must finish a long rest before using it again."
+            ],
+            "img": "modules/plutonium/media/icon/skills.svg"
+        },
+        {
+            "name": "Restorative fun",
+            "source": "5EGS",
+            "foundryType": "feat",
+            "page": 10,
+            "quantity": 1,
+            "featureType": [
+                "SEX"
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 1,
+                        "class": {
+                            "name": "Ranger",
+                            "visible": {
+                                "type": true
+                            }
+                        }
+                    },
+                    "item": [
+                        "Ranger"
+                    ]
+                }
+            ],
+            "entries": [
+                "You may choose to gain advantage on Constitution saving throws at the end of an act of sex, provided you satisfied at least one partner. This lasts until the end of your next long rest. If you do, your satisfied partner(s) gain the same benefit. Once you use this ability, you can’t use it again until you finish a long rest. "
+            ],
+            "img": "modules/plutonium/media/icon/skills.svg"
+        },
+        {
+            "name": "Roguishly charming",
+            "source": "5EGS",
+            "foundryType": "feat",
+            "page": 10,
+            "quantity": 1,
+            "featureType": [
+                "SEX"
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 1,
+                        "class": {
+                            "name": "Rogue",
+                            "visible": {
+                                "type": true
+                            }
+                        }
+                    },
+                    "item": [
+                        "Rogue"
+                    ]
+                }
+            ],
+            "entries": [
+                "At will, you may treat any NPC you are trying to seduce as bisexual, regardless of their actual orientation. Once you use this ability a number of times equal to your Charisma modifier, you must finish a long rest before using it again."
+            ],
+            "img": "modules/plutonium/media/icon/skills.svg"
+        },
+        {
+            "name": "Agile in bed",
+            "source": "5EGS",
+            "foundryType": "feat",
+            "page": 10,
+            "quantity": 1,
+            "featureType": [
+                "SEX"
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 1,
+                        "class": {
+                            "name": "Rogue",
+                            "visible": {
+                                "type": true
+                            }
+                        }
+                    },
+                    "item": [
+                        "Rogue"
+                    ]
+                }
+            ],
+            "entries": [
+                "You may choose to gain advantage on Dexterity saving throws at the end of an act of sex, provided you satisfied at least one partner. This lasts until the end of your next long rest. If you do, your satisfied partner(s) gain the same benefit. Once you use this ability, you can’t use it again until you finish a long rest. "
+            ],
+            "img": "modules/plutonium/media/icon/skills.svg"
+        },
+        {
+            "name": "The magic touch",
+            "source": "5EGS",
+            "foundryType": "feat",
+            "page": 10,
+            "quantity": 1,
+            "featureType": [
+                "SEX"
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 1,
+                        "class": {
+                            "name": "Sorcerer",
+                            "visible": {
+                                "type": true
+                            }
+                        }
+                    },
+                    "item": [
+                        "Sorcerer"
+                    ]
+                }
+            ],
+            "entries": [
+                "When making a satisfaction check, you can expend Sorcery Points and add them to your satisfaction check result. Once you use this ability a number of times equal to your Charisma modifier, you must finish a long rest before using it again."
+            ],
+            "img": "modules/plutonium/media/icon/skills.svg"
+        },
+        {
+            "name": "Pass it on",
+            "source": "5EGS",
+            "foundryType": "feat",
+            "page": 10,
+            "quantity": 1,
+            "featureType": [
+                "SEX"
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 1,
+                        "class": {
+                            "name": "Sorcerer",
+                            "visible": {
+                                "type": true
+                            }
+                        }
+                    },
+                    "item": [
+                        "Sorcerer"
+                    ]
+                }
+            ],
+            "entries": [
+                "You may choose to gain access to one sorcerer cantrip you don’t know at the end of an act of sex, provided you satisfied at least one partner. You retain access to this cantrip only 1 hour. If you gain a cantrip in this way, your satisfied partner(s) gain the same cantrip, using their own ability scores to determine any spell save DCs as though they were a sorcerer of equal level to their character level. They retain access to this cantrip until 1 hour. Once you use this ability, you can’t use it again until you finish a long rest."
+            ],
+            "img": "modules/plutonium/media/icon/skills.svg"
+        },
+        {
+            "name": "Taboo",
+            "source": "5EGS",
+            "foundryType": "feat",
+            "page": 10,
+            "quantity": 1,
+            "featureType": [
+                "SEX"
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 1,
+                        "class": {
+                            "name": "Warlock",
+                            "visible": {
+                                "type": true
+                            }
+                        }
+                    },
+                    "item": [
+                        "Warlock"
+                    ]
+                }
+            ],
+            "entries": [
+                "You can impregnate or become pregnant by any race, regardless of your own race. The Dungeon Master determines what race the resulting fetus or fetuses are."
+            ],
+            "img": "modules/plutonium/media/icon/skills.svg"
+        },
+        {
+            "name": "One of us",
+            "source": "5EGS",
+            "foundryType": "feat",
+            "page": 10,
+            "quantity": 1,
+            "featureType": [
+                "SEX"
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 1,
+                        "class": {
+                            "name": "Warlock",
+                            "visible": {
+                                "type": true
+                            }
+                        }
+                    },
+                    "item": [
+                        "Warlock"
+                    ]
+                }
+            ],
+            "entries": [
+                "You may choose to gain an empathic link to any of your sexual partners that you have satisfied. This empathic link has no range, but a creature is severed from the link if they move to another plane of existence. While it the link is active, each person in the link knows the current hit points and emotional state of each other person in the link. As an action, they can impose the Blinded condition on themselves in order to see through the eyes of anyone else in the link. Ending this effect requires another action. This link endures for each person in it until he or she finishes a short or long rest. "
+            ],
+            "img": "modules/plutonium/media/icon/skills.svg"
+        },
+        {
+            "name": "Intellectual wooing",
+            "source": "5EGS",
+            "foundryType": "feat",
+            "page": 10,
+            "quantity": 1,
+            "featureType": [
+                "SEX"
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 1,
+                        "class": {
+                            "name": "Wizard",
+                            "visible": {
+                                "type": true
+                            }
+                        }
+                    },
+                    "item": [
+                        "Wizard"
+                    ]
+                }
+            ],
+            "entries": [
+                "When seducing a target, instead of a Deception, Performance, or Persuasion check, you can instead roll a d20 and add your proficiency bonus and your Intelligence modifier"
+            ],
+            "img": "modules/plutonium/media/icon/skills.svg"
+        },
+        {
+            "name": "Learned lover",
+            "source": "5EGS",
+            "foundryType": "feat",
+            "page": 10,
+            "quantity": 1,
+            "featureType": [
+                "SEX"
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 1,
+                        "class": {
+                            "name": "Wizard",
+                            "visible": {
+                                "type": true
+                            }
+                        }
+                    },
+                    "item": [
+                        "Wizard"
+                    ]
+                }
+            ],
+            "entries": [
+                "After having sex, you may make use of your Arcane Recovery feature one additional time, provided you satisfied at least one partner. If you do, your partner(s) also gain the benefit of Arcane Recovery for their own class spell lists as though they were wizards. They retain this benefit until the end of their next long rest. Once you use this ability, you can’t use it again until you finish a long rest"
+            ],
+            "img": "modules/plutonium/media/icon/skills.svg"
+        },
+        {
+            "name": "Hither you come",
+            "source": "5EGS",
+            "foundryType": "feat",
+            "page": 9,
+            "quantity": 1,
+            "featureType": [
+                "SEX"
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 1,
+                        "class": {
+                            "name": "Barbarian",
+                            "visible": {
+                                "type": true
+                            }
+                        }
+                    },
+                    "item": [
+                        "Barbarian"
+                    ]
+                }
+            ],
+            "entries": [
+                "When you have sex, you can choose to last a number of additional minutes equal to your rage bonus damage. Once you use this ability a number of times equal to your Constitution modifier, you must finish a long rest before using it again"
+            ],
+            "img": "modules/plutonium/media/icon/skills.svg"
+        }
+    ]
+}
